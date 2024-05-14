@@ -1,0 +1,82 @@
+body {
+  width: 100%;
+  font-family: poppins;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #F3C796;
+  background-size: cover;
+  background-image: url("1609.m00.i125.n001.S.c12 1.jpg");
+  background-blend-mode: multiply;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  background-color: #D29C75;
+  opacity: 80%;
+}
+
+/* Coba coba */
+
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+nav a:hover {
+  transform: scale(1.1)
+}
+nav img {
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  margin-left: 800px
+}
+.welcome h1 {
+  color: brown;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+}
+#explore {
+  background-color: #D29C75;
+  border: none;
+  padding: 10px 15px;
+  width: 180px;
+  height: 75px;
+  border-radius: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  opacity: 60%;
+}
+a {
+  color: white;
+  font-family: poppins;
+  text-decoration: none;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+.coffee {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  margin-right: 140px;
+  margin-top: 80px;
+}
+.coffee h2 {
+  color: brown;
+}
+.coffee img {
+  width: 120px;
+}
