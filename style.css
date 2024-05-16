@@ -1,3 +1,6 @@
+/* h1 = 55px */
+/* h2 = 50px */
+
 body {
   width: 100%;
   font-family: poppins;
@@ -9,17 +12,22 @@ body {
   background-image: url("1609.m00.i125.n001.S.c12 1.jpg");
   background-blend-mode: multiply;
 }
-nav {
-  display: flex;
-  align-items: center;
-  width: auto;
-  height: 50px;
-  background-color: #D29C75;
-  opacity: 80%;
+
+.container {
+  height: 650px;
+  border-bottom:1px solid black ;
 }
 
-/* Coba coba */
-
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #D29C75;
+  opacity: 0.8;
+}
 
 nav a {
   color: white;
@@ -37,7 +45,8 @@ nav img {
 }
 .welcome h1 {
   color: brown;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 55px;
   margin-left: 50px;
   margin-top: 75px;
 }
@@ -69,21 +78,94 @@ a {
 
 .coffee {
   display: flex;
-  justify-content: end;
+  justify-content: right;
   flex-direction: row;
-  margin-right: 140px;
+  margin-right: 70px;
   margin-top: 80px;
 }
-.coffee h2 {
+.coffee h2 i{
   color: brown;
+  font-size: 30px;
 }
 .coffee img {
-  width: 120px;
+  width: 150px;
 }
+
+.container2 {
+  height: 250px;
+  align-items: center;
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+
 
 .container2 h2 {
   color: white;
-  font-size: 2rem;
+  font-size: 50px;
   margin-left: 50px;
-  margin-top: 75px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.container2 h3 {
+  font-size: 25px;
+  display: block;
+  line-height: 10px;
+  color: white;
+  margin-left: 110px;
+}
+
+.container2 h3 a {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.container2 img {
+  width: 100%; 
+  height: auto; 
+  max-height: 250px; 
+  max-width: 350px;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: -170px;
+}
+
+.container3 {
+  background-color: #D29C75;
+  background-size: cover;
+  background-image: url("1609.m00.i125.n001.S.c12 1.jpg");
+  background-blend-mode: multiply;
+}
+
+.container3 h2 {
+  color: white;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.container3 h3 {
+  margin-left: 350px;
+  line-height: 15px; 
+  color: white;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.container3 .line1 {
+  margin-top: -100px;
+}
+
+.container3 .line2 {
+  margin-left: 380px;
+}
+
+.benefit-list {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  margin-left: 323px;
 }
