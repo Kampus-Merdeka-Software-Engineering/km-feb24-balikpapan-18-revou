@@ -80,3 +80,10 @@ a {
 .coffee img {
   width: 120px;
 }
+
+.container2 h2 {
+  color: white;
+  font-size: 2rem;
+  margin-left: 50px;
+  margin-top: 75px;
+}
