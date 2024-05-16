@@ -15,7 +15,7 @@ body {
 
 .container {
   height: 650px;
-  border-bottom:1px solid black ;
+
 }
 
 nav {
@@ -95,7 +95,7 @@ a {
   height: 250px;
   align-items: center;
   display: block;
-  border-bottom: 1px solid black;
+  
 }
 
 
@@ -126,13 +126,14 @@ a {
   height: auto; 
   max-height: 250px; 
   max-width: 350px;
-  display: block; 
-  margin-left: auto;
+  display: flex;
+  margin-left: 25rem;
   margin-right: auto; 
   margin-top: -170px;
 }
 
 .container3 {
+  height: 15rem;
   background-color: #D29C75;
   background-size: cover;
   background-image: url("1609.m00.i125.n001.S.c12 1.jpg");
@@ -168,4 +169,13 @@ a {
   color: white;
   margin-top: 30px;
   margin-left: 323px;
+}
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 25rem;
+  }
 }
